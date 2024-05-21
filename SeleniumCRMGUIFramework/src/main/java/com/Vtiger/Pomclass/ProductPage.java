@@ -20,6 +20,9 @@ public class ProductPage {
 	public WebElement getProductlink() {
 		return productlink;
 	}
+	
+	@FindBy(name="searchbutton")
+	private WebElement searchbutton;
 
 
 
