@@ -22,6 +22,8 @@ public class HomePage {
     
     @FindBy(linkText = "Sign Out")
     private WebElement logoutbutton;
+    
+    
 
 	
 	public WebElement getOrganizationlink() {
@@ -37,6 +39,16 @@ public class HomePage {
 
 	public WebElement getLogoutbutton() {
 		return logoutbutton;
+	}
+	
+	@FindBy(linkText = "Products")
+	private WebElement productlink;
+
+
+
+
+	public WebElement getProductlink() {
+		return productlink;
 	}
 
 	
