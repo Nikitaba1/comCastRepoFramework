@@ -21,14 +21,14 @@ public class ProductPage {
 		return productlink;
 	}
 	
-	@FindBy(name="searchbutton")
-	private WebElement searchbutton;
+	@FindBy(name="search")
+	private WebElement searchele3;
 
 
 
 
-	public WebElement getSearchbutton() {
-		return searchbutton;
+	public WebElement getSearch() {
+		return searchele3;
 	}
 
 
