@@ -26,4 +26,11 @@ public class ProductPage {
 
 
 
+
+	public WebElement getSearchbutton() {
+		return searchbutton;
+	}
+
+
+
 }
